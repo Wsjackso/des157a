@@ -1,0 +1,95 @@
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+/* reset */
+
+body{
+    background-color: rgba(121, 147, 127, 1);
+    max-width: 1200px;
+    margin: auto;
+    color: black;
+}
+
+header{
+    margin-top: 3em;
+   justify-content: center;
+    font-family:"Coming Soon", serif;
+    font-size: 24px;
+    color: black;
+    padding: 15px;
+    background-color: rgba(252, 246, 245, 1);
+    border: 6px solid #000;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+section {
+    justify-self: center;
+    background-color: white;
+    border: 6px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    max-width:65ch; 
+}
+
+h1{
+    font-family:"Coming Soon", serif;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+a{ 
+    color: black;
+    font-family: "Chivo Mono", serif;
+    font-size: 15px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    text-decoration: none;
+}
+
+time{
+    color: black;
+    font-family: "Chivo Mono", serif;
+    font-size: 16px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+p{
+    color: black;
+    font-family: "Chivo Mono", serif;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 1.6em;
+}
+
+footer{
+    color: black;
+    font-family: "Chivo Mono", serif;
+    font-size: 12px;
+    margin-top: 20px; 
+    text-align: center;
+}
+
