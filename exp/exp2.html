@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-   
+    
     <link href="styles.css" rel="stylesheet">
 
     <title>Example 2</title>
@@ -21,21 +21,22 @@
         var colorInput = "";
         var adjArray = ["common", "dull", "bold", "beautiful", "unexpected", "classic", "NOOOO"];
 
-       
-        window.onload = function() {
-            colorInput = prompt('What is your favorite color?'); 
-            var response = rateColor(); 
-            updatetext(response); 
-        };
+        // Prompt to opening question
+        colorInput = prompt('What is your favorite color?'); 
+        var response = rateColor(); 
+        updatetext(response); 
 
+        // pick random number for response
         function rateColor() {
             var num = Math.floor((Math.random() * 7)); 
-            return `Your favorite color, ${colorInput}? That's so ${adjArray[num]}!`; 
+            return `Your favorite color, ${colorInput}? That's so ${adjArray[num]}!`; // output
         }
 
+        // Answer to response 
         function updatetext(response) {
             document.querySelector('#text').innerHTML = response; 
         }
     </script>
 </body>
 </html>
+
