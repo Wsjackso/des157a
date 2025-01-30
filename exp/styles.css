@@ -1,0 +1,33 @@
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+/* reset */
+
+body{
+   font-size: large;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: blanchedalmond;
+}
+
+
+header{
+    margin-top: 20px;
+}
+
+
+
+
