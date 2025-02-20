@@ -1,0 +1,153 @@
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+/* reset */
+
+body {
+    height: 100vh;  
+    background-color: #b7b7b7;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+
+   
+}
+
+h1{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 3em;
+    margin-left: 60px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 2em;
+}
+
+p{
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+
+form {
+    width: 600px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 7px;
+    border-radius: 5px;
+
+   
+}
+
+/* Label and input container */
+.form-group {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    width: 40%; 
+    flex: 1;
+   
+}
+
+/* Inputs & Selects */
+input, select {
+    width: 400px; 
+    padding: 8px;
+    border: 2px solid #222;
+    border-radius: 5px;
+    font-size: 1rem;
+    flex: 2;
+    
+}
+
+button {
+    background-color: #ff4444;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+
+#results {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+}
+
+#output span {
+    font-weight: bold;
+    color: #ff4444;
+}
+
+.hidden{
+    display: none;
+}
+
+.showing{
+    display: invis;
+}
+
+img{
+        width: 500px;
+        height: 500px; 
+        display: flex;
+        justify-content: center;
+        
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
