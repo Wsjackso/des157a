@@ -1,0 +1,140 @@
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+/* reset */
+
+/* General Styles */
+body {
+    font-family: "Graduate", sans-serif;
+    text-align: center;
+    background-color: #f8f5e4;
+}
+
+
+.header {
+    font-family: "Caesar Dressing", cursive;
+    background: #b6a4fc;
+    padding: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+/* Intro Section (Orange Background Under H1) */
+.intro {
+    background: #f4a261;
+    color: black;
+    font-size: 16px;
+    padding: 15px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Gallery Layout */
+.roll {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+/* Image Styling */
+.image-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.image-container img {
+    width: 250px;
+    height: auto;
+    border: 3px solid black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 5px rgba(73, 66, 228, 0.5) ;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.overlay-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    max-width: 90%;
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+
+#artist-video-container {
+    width: 100%;
+    max-width: 560px; 
+    height: auto;
+    margin-top: 15px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: 400px; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}

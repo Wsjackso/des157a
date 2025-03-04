@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Jackson Fest 2021-2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Graduate&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <main class="canvas" id="canvas">
+        <header class="header" id="header">JACKSON FEST 2023</header>
+        
+        <section class="intro">
+            <p> Hover or click on the images to explore some of the concerts I've attended in 2023 and watch a video of the artists I've seen live.</p>
+        </section>
+
+        <section class="roll" id="roll">
+            <h1>ARI LENNOX</h1>
+            <article class="image-container" data-story="ari">
+                <img src="images/ari.jpeg" alt="Ari Lennox Concert">
+                <div class="overlay-visual"></div>
+            </article>
+            
+            <h1>ELLA MAI</h1>
+            <article class="image-container" data-story="ella">
+                <img src="images/ella.jpeg" alt="Ella Mai Concert">
+                <div class="overlay-visual"></div>
+            </article>
+            <h1>D4VD</h1>
+            <article class="image-container" data-story="d4vd">
+                <img src="images/d4vd.jpeg" alt="D4VD Concert">
+                <div class="overlay-visual"></div>
+            </article>
+            <h1>SZA</h1>
+            <article class="image-container" data-story="sza">
+                <img src="images/sza.jpeg" alt="SZA Concert">
+                <div class="overlay-visual"></div>
+            </article>
+        </section>
+
+       
+        <div class="overlay" id="overlay">
+            <div class="overlay-content">
+                <header class="overlay-header">
+                    <h2 id="artist-title"></h2>
+                    <button class="close-button" id="closeButton">X</button>
+                </header>
+                <section class="overlay-body">
+                    <p class="overlay-description" id="artist-description"></p>
+                    <div id="artist-video-container"></div> 
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
